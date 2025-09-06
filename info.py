@@ -30,8 +30,8 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003084161492'))
 CHANNELS = [-1002820902360]
 
 # Force subscribe channel
-REQUEST_TO_JOIN_MODE = True
-TRY_AGAIN_BTN = True
+REQUEST_TO_JOIN_MODE = False
+TRY_AGAIN_BTN = False
 AUTH_CHANNEL = -1002699575817
 
 # Request channel
@@ -148,3 +148,4 @@ else:
     OTHER_DB_URI = O_DB_URI       
     FILE_DB_URI = F_DB_URI        
     SEC_FILE_DB_URI = S_DB_URI
+
