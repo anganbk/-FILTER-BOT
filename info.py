@@ -12,7 +12,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'AnganBot')
 API_ID = int(environ.get('API_ID', '23483999'))
 API_HASH = environ.get('API_HASH', 'f7177824ce1cde688f2f9520dfe6339e')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8022291716:AAHPC97MoqLUPX7XLC29f9W1R5QllxsfqLk")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # Start Message Pictures
@@ -20,35 +20,35 @@ PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg'))
 
 # Admins & Users
 ADMINS = [7891845883]  
-auth_users = []  
+auth_users = [7875649166]  
 AUTH_USERS = (auth_users + ADMINS) if auth_users else ADMINS
 
 # Log channel
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003084161492'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002912681437'))
 
 # File channels
-CHANNELS = [-1002820902360]
+CHANNELS = [-1002979478084]
 
 # Force subscribe channel
 REQUEST_TO_JOIN_MODE = False
 TRY_AGAIN_BTN = False
-AUTH_CHANNEL = -1002699575817
+AUTH_CHANNEL = -1002668132132
 
 # Request channel
-REQST_CHANNEL = None
+REQST_CHANNEL = -1003083785057
 INDEX_REQ_CHANNEL = LOG_CHANNEL
 
 # Support group
-SUPPORT_CHAT_ID = -1002486269632
+SUPPORT_CHAT_ID = -1002905597542
 
 # File Store & Delete Channels
-FILE_STORE_CHANNEL = []
+FILE_STORE_CHANNEL = [-1002979478084]
 DELETE_CHANNELS = [0]
 
 
 # MongoDB information
-DATABASE_URI = "mongodb+srv://angan:angan@angan.zt9nvpm.mongodb.net/?retryWrites=true&w=majority&appName=Angan"
-DATABASE_NAME = "angan"
+DATABASE_URI = "mongodb+srv://ani4angan_db_user:3s2XGT9pY0Ha6tdo@cluster0.pbuuu5s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DATABASE_NAME = "ani4angan_db_user"
 COLLECTION_NAME = 'vjcollection'
 MULTIPLE_DATABASE = False
 
@@ -68,10 +68,10 @@ PUBLIC_FILE_CHANNEL = ""
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/angan_support')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/angan_channel')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'angan_support')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/AnganOfficial')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/animegp4')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/animegp1')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'botsupporthd')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/anganbk4')
 
 
 # Features
@@ -102,7 +102,7 @@ SHORTLINK_MODE = False
 
 # Others
 CACHE_TIME = 1800
-MAX_B_TN = "5"
+MAX_B_TN = "10"
 PORT = "8080"
 MSG_ALRT = 'Hello My Dear Friends ❤️'
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
@@ -148,4 +148,5 @@ else:
     OTHER_DB_URI = O_DB_URI       
     FILE_DB_URI = F_DB_URI        
     SEC_FILE_DB_URI = S_DB_URI
+
 
