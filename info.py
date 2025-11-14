@@ -12,7 +12,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'AnganBot')
 API_ID = int(environ.get('API_ID', '23483999'))
 API_HASH = environ.get('API_HASH', 'f7177824ce1cde688f2f9520dfe6339e')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8100975548:AAGCztB-QPfx4APvFhL9I2oYmvmuKcGYmhM")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8452591222:AAG1SbgIgGa9B5qxDH6lVoJ9xncIS7K7dqo")
 
 
 # Start Message Pictures
@@ -148,6 +148,7 @@ else:
     OTHER_DB_URI = O_DB_URI       
     FILE_DB_URI = F_DB_URI        
     SEC_FILE_DB_URI = S_DB_URI
+
 
 
 
